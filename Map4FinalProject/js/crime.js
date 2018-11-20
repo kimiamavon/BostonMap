@@ -110,7 +110,8 @@ function updateChoropleth() {
 
     g.selectAll(".map")
         .attr("fill", function(d) {
-            return retrievevalue(d, data_);
+        return '#08306b';
+            //return retrievevalue(d, data_);
         });
 
     console.log('after the map');
